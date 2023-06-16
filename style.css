@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/t2.png");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: white;
+	font-size: 66px;
+	text-decoration: underline;
+}
+
+.button{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	color: white;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid white;
+	padding: 15px 40px;
+	color: white;
+	text-decoration: none;
+	transition: 0.6%;
+}
+.btn:hover{
+	background-color: red;
+	color: black;
+}
